@@ -1,3 +1,4 @@
+# INSERT - tryb wprowadzania
 # assert - zwraca ?
 # dir ("")
 # dir([]) wyswietla metody listy
@@ -25,6 +26,40 @@
 #.ipybn_cheese
 
 # kropka oznacza ze prywatne?
+# _ separator podloga
+# help(int)
+
+#0o111 to 73 w systemie osemkowym chyba
+# 100 is 1_0_0
+
+# bin(10) to 0b1010
+# int("ggg", base=17)  ==> 4912
+# 0xffff  ===> 65535
+# from string import ascii lowercase     len(ascii_lowercase) + 10   ==> 36
+# potęge można zapisać np. 10 ** 100 (dwie gwiazdki)
+# 0.1 + 0.1 + 0.1 == 0.3 ==> false
+# round(0.1 + 0.1 + 0.1, 2) = 0.3    (do dwóch miejsc po przecinku?)
+
+#w cencach można sobie uzywać pełnych liczb, zeby nie uzywac liczb zmiennoprzecinkowych  ====>ceny zapisywać w groszach)
+
+# 2e-2     ===>0.02
+
+# 5e-324     ===> 5e-324
+# 5e - 325  ====> 0.0
+# 1.8e308   ===> inf (infinity)
+#type(1.79e309)   ===> float
+# float('inf) + float('inf')   ===> inf
+
+# float('nan') == float('nan')  ====> False
+# float('-inf') < 100 < float("inf")   ===> False
+# complex - liczby zespolone
+
+
+#import decimal     decimal.Decimal
+
+
+
+
 
 # notepad .gitignore w macu
 # nano .gitignore w macu
@@ -100,7 +135,7 @@ id(x), id(y), id(z)
 x is y
 True
 x is z
-Flase
+False
 
 
 Napis = str
@@ -126,6 +161,26 @@ f"""
 """
 a
 10
+
+
+
+def foo(x: int) -> bool:
+    if x == 10:
+        return return x % 2 == 0
+
+        if foo(10) is True:
+            print("10")
+
+
+ True is 1
+
+            x = True
+            y = True
+            if x is True:
+                print("Nie puste")
+
+
+
 
 
 
